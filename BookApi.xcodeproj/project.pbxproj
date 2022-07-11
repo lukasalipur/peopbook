@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6172B7D287C7D2400BDF98D /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6172B7C287C7D2400BDF98D /* WelcomeScreen.swift */; };
+		A6172B7F287C936900BDF98D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6172B7E287C936900BDF98D /* HomeScreen.swift */; };
 		A619B42D287370E700324457 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = A619B42C287370E700324457 /* Background.swift */; };
-		A636BBC6287870F9007DD2D9 /* NetworkCall in Resources */ = {isa = PBXBuildFile; fileRef = A636BBC5287870F9007DD2D9 /* NetworkCall */; };
 		A636BBC82878739C007DD2D9 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636BBC72878739C007DD2D9 /* CustomColor.swift */; };
 		A636BBCC287873FF007DD2D9 /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636BBCB287873FF007DD2D9 /* ImageRequest.swift */; };
 		A64ABEBB2873275E006636B3 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64ABEBA2873275E006636B3 /* FontManager.swift */; };
@@ -25,8 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6172B7C287C7D2400BDF98D /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		A6172B7E287C936900BDF98D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		A619B42C287370E700324457 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
-		A636BBC5287870F9007DD2D9 /* NetworkCall */ = {isa = PBXFileReference; lastKnownFileType = text; path = NetworkCall; sourceTree = "<group>"; };
 		A636BBC72878739C007DD2D9 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		A636BBCB287873FF007DD2D9 /* ImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRequest.swift; sourceTree = "<group>"; };
 		A64ABEB02873266A006636B3 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
@@ -91,10 +93,11 @@
 				A6A9C304284EE0DE004E3282 /* BookApiApp.swift */,
 				A619B42C287370E700324457 /* Background.swift */,
 				A6A9C306284EE0DE004E3282 /* ContentView.swift */,
+				A6172B7E287C936900BDF98D /* HomeScreen.swift */,
 				A636BBCB287873FF007DD2D9 /* ImageRequest.swift */,
 				A636BBC72878739C007DD2D9 /* CustomColor.swift */,
-				A636BBC5287870F9007DD2D9 /* NetworkCall */,
 				A6A9C33128551673004E3282 /* Webview.swift */,
+				A6172B7C287C7D2400BDF98D /* WelcomeScreen.swift */,
 				A6A9C312284EE0F7004E3282 /* Books.swift */,
 				A6A9C314284EE191004E3282 /* Network.swift */,
 				A6A9C308284EE0E0004E3282 /* Assets.xcassets */,
@@ -171,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64ABEC028732983006636B3 /* SourceSans3-Black.ttf in Resources */,
-				A636BBC6287870F9007DD2D9 /* NetworkCall in Resources */,
 				A6A9C30C284EE0E0004E3282 /* Preview Assets.xcassets in Resources */,
 				A64ABEBD28732958006636B3 /* Inter-Regular.ttf in Resources */,
 				A6A9C309284EE0E0004E3282 /* Assets.xcassets in Resources */,
@@ -188,7 +190,9 @@
 			files = (
 				A6A9C313284EE0F7004E3282 /* Books.swift in Sources */,
 				A619B42D287370E700324457 /* Background.swift in Sources */,
+				A6172B7D287C7D2400BDF98D /* WelcomeScreen.swift in Sources */,
 				A6A9C33228551673004E3282 /* Webview.swift in Sources */,
+				A6172B7F287C936900BDF98D /* HomeScreen.swift in Sources */,
 				A6A9C307284EE0DE004E3282 /* ContentView.swift in Sources */,
 				A6A9C315284EE191004E3282 /* Network.swift in Sources */,
 				A64ABEBB2873275E006636B3 /* FontManager.swift in Sources */,
