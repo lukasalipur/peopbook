@@ -1,0 +1,26 @@
+
+            ForEach(network.book, id:\.self){ item in
+                NavigationLink{
+                    Webview(url: URL(string: "\(item.volumeInfo.previewLink)")!)
+                } label: {
+
+                    VStack{
+                    URLImage(urlString: item.volumeInfo.imageLinks.thumbnail)
+                        .cornerRadius(5)
+                    
+                    Text("\(item.volumeInfo.title)")
+                        .font(.custom(FontManager.SourceSans3.bold, size: 12))
+                        .foregroundColor(.black)
+                        .frame(minWidth: 0, maxWidth: 100, minHeight: 0, maxHeight: 60, alignment: .leading)
+                        .multilineTextAlignment(.leading)
+                        .padding(0)
+                        .truncationMode(.tail)
+                    
+                    Text("\(item.volumeInfo.authors[0])").font(.custom(FontManager.Inter.regular, size: 9)).foregroundColor(.black)
+                        .frame(minWidth:0, maxWidth:100, alignment: .leading)
+                        .multilineTextAlignment(.leading)
+                        .opacity(0.7)
+                    
+                   }
+                }
+            }
